@@ -46,11 +46,8 @@ a{
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    clip-path: circle(700px at 90% -10%);
-    -webkit-clip-path:circle(1000px at 90% -10%);
-    transition: all 1s ease-out;
+   
 }
-
 .toggle{
     order: 1;
 }
@@ -65,6 +62,8 @@ a{
 }
 .item.active{
     display: block;
+    animation: fadeInUp;      /* anamation for the text when the hamburger is clicked  */
+    animation-duration: 1s;
 }
 .toggle{
    cursor: pointer;
@@ -96,7 +95,6 @@ a{
     .menu{
         justify-content: center;
     }
-   
     .logo{
         flex: 1;
     }
@@ -141,6 +139,9 @@ a{
         border-bottom: 2px solid;
         border-color: #f8bbd0;
         
+    }
+    .item a:hover{
+        color: #f8bbd0;
     }
     .toggle{
         display: none;
