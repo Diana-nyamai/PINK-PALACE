@@ -22,3 +22,10 @@ $(document).ready(function(){
   });
 
 //   animation of the navbar when clicked
+const hamburger = document.querySelector('.toggle');
+const menu = document.querySelector('.menu');
+
+hamburger.addEventListener('click', () =>{
+    menu.classList.toggle('open');
+}
+)

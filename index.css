@@ -46,7 +46,11 @@ a{
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
+    clip-path: circle(700px at 90% -10%);
+    -webkit-clip-path:circle(1000px at 90% -10%);
+    transition: all 1s ease-out;
 }
+
 .toggle{
     order: 1;
 }
@@ -91,9 +95,11 @@ a{
 @media all and (min-width: 468px){
     .menu{
         justify-content: center;
+    }
+    .menu.open{
         background: blue;
-        clip-path: circle(100px at 90% -10%);
-        -webkit-clip-path:circle(700px at 90% -10%);
+        clip-path: circle(1000px at 90% -10%);
+        -webkit-clip-path: circle(1000px at 90% -10%);
         transition: all 1s ease-out;
     }
     .logo{
