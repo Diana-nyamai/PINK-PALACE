@@ -29,7 +29,7 @@ a{
 }
 .menu li{
     font-family:  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, "ＭＳ Ｐゴシック", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 700;
     padding: 8px 12px;
 }
@@ -141,7 +141,7 @@ a{
         
     }
     .item a:hover{
-        color: #f8bbd0;
+        color: #f48f8f;
     }
     .toggle{
         display: none;
