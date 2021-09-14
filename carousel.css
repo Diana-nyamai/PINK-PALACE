@@ -1,0 +1,21 @@
+.carousel {
+    position: static;
+    width: 100%;
+    height: 270px;
+    overflow: hidden;
+    
+}
+.carousel-item {
+      position: absolute;
+      width: 100%;
+      height: 100vh;
+      top: 0;
+      left: 100%;}
+
+      .trans{
+        left: 0;
+        transition: all 0.3s ease-out;
+      }
+      div {height: 100%;}
+     
+  
