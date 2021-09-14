@@ -96,12 +96,7 @@ a{
     .menu{
         justify-content: center;
     }
-    .menu.open{
-        background: blue;
-        clip-path: circle(1000px at 90% -10%);
-        -webkit-clip-path: circle(1000px at 90% -10%);
-        transition: all 1s ease-out;
-    }
+   
     .logo{
         flex: 1;
     }
