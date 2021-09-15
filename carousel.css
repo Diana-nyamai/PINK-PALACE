@@ -1,21 +1,22 @@
 .carousel {
-    position: static;
-    width: 100%;
-    height: 270px;
-    overflow: hidden;
-    
+  position: relative;
+  width: 100%;
+  min-height: 270px;
+  overflow: hidden;
 }
 .carousel-item {
-      position: absolute;
-      width: 100%;
-      height: 100vh;
-      top: 0;
-      left: 100%;}
-
-      .trans{
-        left: 0;
-        transition: all 0.3s ease-out;
-      }
-      div {height: 100%;}
-     
-  
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 100%;
+  }
+.active {
+      left: 0;
+      transition: all 0.3s ease-out;
+    }
+    div {height: 100%;}
+  .carousel-img{
+    background-color: #f8bbd0;
+  }
+   
