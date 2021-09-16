@@ -5,6 +5,7 @@
 }
   body{
       overflow-x: hidden;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
 nav{
     padding: 5px 20px;
@@ -68,14 +69,14 @@ a{
    cursor: pointer;
 }
 .bars{
-    background: #999;
+    background: #3f3e3e;
     display: inline-block;
     height: 2px;
     position: relative;
     width: 18px;
 }
 .bars::before,.bars::after{
-    background: #999;
+    background: #3f3e3e;
     content: "";
     display: inline-block;
     height: 2px;
