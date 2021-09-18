@@ -9,6 +9,7 @@
   background-image: url('./background.jpg');
   animation: animate 15s ease-in infinite;
 }
+
 /* @keyframes animate{
   0%, 100%{background-image: url('./image1.jpg');}
   25%{background-image: url('./pinterest-logo.png');}
