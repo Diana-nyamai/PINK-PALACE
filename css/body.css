@@ -106,7 +106,7 @@
 .curved{
     width: 100%;
     text-align: center;
-    background-image: url(./pinkpalace1.jpeg);
+    background-image: url('../images/pinkpalace1.jpeg');
     padding: 0;
     position: relative;
     overflow: hidden;
