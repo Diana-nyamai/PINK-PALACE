@@ -1,0 +1,50 @@
+.footer-area{
+    margin-top: 0;
+    padding: 100px 0 40px 0;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#febbbb+0,fe9090+45,ff5c5c+100;Red+3D+%231 */
+background: #febbbb; /* Old browsers */
+background: -moz-linear-gradient(top,  #febbbb 0%, #fe9090 45%, #ff5c5c 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #febbbb 0%,#fe9090 45%,#ff5c5c 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #febbbb 0%,#fe9090 45%,#ff5c5c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#febbbb', endColorstr='#ff5c5c',GradientType=0 ); /* IE6-9 */
+
+}
+.main{
+    width: 100%;
+    margin: 0 auto;
+    bottom: 0;
+}
+.footer{
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-around;
+}
+.single-footer:first-child{
+    width: 400px;
+}
+.single-footer{
+    width: 301px;
+}
+.single-footer h4{
+    margin-bottom: 20px;
+}
+.footer-social a{
+    color: #333;
+    border: 1px solid #333;
+    width: 40px;
+    height: 40px;
+    line-height: 60px;
+    border-radius: 50%;
+    margin-right: 10px;
+    padding: 10px;
+}
+.single-footer ul li{
+    margin-bottom: 15px;
+}
+.copy{
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 50px;
+}
