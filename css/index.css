@@ -137,11 +137,11 @@ a{
     }
     .item:hover{
         border-bottom: 2px solid;
-        border-color: #c2185b;
+        border-color: #e7bfc0;
         
     }
     .item a:hover{
-        color:#c2185b ;
+        color:#3f3e3e ;
     }
     .toggle{
         display: none;

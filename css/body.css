@@ -43,7 +43,7 @@
     padding: 30px;
     height: 215px;
     position: relative;
-    background: grey;
+    background: #e7bfc0;
     padding: 30px;
     margin: 30px;
     display: flex;
@@ -106,7 +106,7 @@
 .curved{
     width: 100%;
     text-align: center;
-    background-image: url('../images/pinkpalace1.jpeg');
+    background-image: url('../images/pp11.jpeg');
     padding: 0;
     position: relative;
     overflow: hidden;
@@ -160,3 +160,33 @@
     max-width: 50%;
     margin: 20px auto;
 }
+.fl-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+    align-items: center;
+    margin: 40px;
+   
+}
+
+.f-list ul li{
+    margin-bottom: 20px;
+}
+  .swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    overflow: hidden;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+  }
