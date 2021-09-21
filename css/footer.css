@@ -1,12 +1,13 @@
 .footer-area{
     margin-top: 0;
+    bottom: 0;
     padding: 100px 0 40px 0;
-    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#febbbb+0,fe9090+45,f#e7bfc0 0;Red+3D+%231 */
-    background: #febbbb; /* Old browsers */
-    background: -moz-linear-gradient(top,  #e7bfc0 0%, #e7bfc0   45%,#fe9090  100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top,  #e7bfc0 0%,#e7bfc0 45%, #fe9090 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom,  #e7bfc0 0%,#e7bfc0 45%,#fe9090 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#febbbb', endColorstr='#ff5c5c',GradientType=0 ); /* IE6-9 */
+    width: 100%;
+    background: #febbbb; 
+    background: -moz-linear-gradient(top,  #e7bfc0 0%, #e7bfc0   45%,#fe9090  100%); 
+    background: -webkit-linear-gradient(top,  #e7bfc0 0%,#e7bfc0 45%, #fe9090 100%); 
+    background: linear-gradient(to bottom,  #e7bfc0 0%,#e7bfc0 45%,#fe9090 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#febbbb', endColorstr='#ff5c5c',GradientType=0 );
 
 }
 .main{
