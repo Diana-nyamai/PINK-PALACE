@@ -24,7 +24,7 @@
 .section2 h1{
     text-align: center;
     padding: 30px;
-    color: #c85a54;
+    color: #7e3748;
 }
 .section2 p{
     text-align: center;
@@ -88,7 +88,7 @@
 }
 .button a{
     padding: 15px;
-    background: #c85a54;
+    background: #e7bfc0;
     color: black;
 }
 .button a:hover{
@@ -103,6 +103,9 @@
 }
 
 /* curved video styling */
+.f-container{
+    color: #7e3748;
+}
 .curved{
     width: 100%;
     text-align: center;
@@ -111,19 +114,7 @@
     position: relative;
     overflow: hidden;
 }
-.curved h1{
-    margin-top: -300PX;
-    padding-bottom: 100px;
-}
-.curved p{
-    margin: 0 5rem;
-}
-.curved svg{
-    display: block;
-}
-.curved.upper{
-    background:#f5f5f5;
-}
+
 .video-bg{
     position: absolute;
     height: 300px;

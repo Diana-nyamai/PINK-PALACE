@@ -5,8 +5,9 @@
 }
   body{
       overflow-x: hidden;
-      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-family: 'Roboto Condensed', sans-serif;
       background: #f5f5f5;
+      font-size: 20px;
   }
 nav{
     padding: 5px 20px;
