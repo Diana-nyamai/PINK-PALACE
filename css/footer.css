@@ -1,8 +1,7 @@
 .footer-area{
-    margin-top: 0;
+   
     bottom: 0;
     padding: 100px 0 40px 0;
-    width: 100%;
     background: #febbbb; 
     background: -moz-linear-gradient(top,  #e7bfc0 0%, #e7bfc0   45%,#fe9090  100%); 
     background: -webkit-linear-gradient(top,  #e7bfc0 0%,#e7bfc0 45%, #fe9090 100%); 

@@ -7,18 +7,17 @@
      
     <title>The Pink Palace</title>
     <link rel="stylesheet" href="./css/index.css">
-    <link rel="stylesheet" href="./css/carousel.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="./css/body.css">
     <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/gallery.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
-    <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 <body>
-  <div class="background">
+
     <!-- The navigation bar -->
     <nav class="navbar-fixed-top">
         <ul class="menu" id="menu">
@@ -35,9 +34,40 @@
         </ul>
     </nav>
 
+
+    <div class="section2 clearfix">
+      <p class="event">Browse Our</p>
+      <h1>GALLERY</h1>
+      <p>Get a first hand sneak peak into the type of photo shoots you can have at Karura House.</p>
+      
+    </div>
+
+    <!-- card slider -->
     <main>
-     
+        <div class="full-img" id="fullimgbox">
+            <img src="./images/PP1.jpeg" id="fullimg" alt="">
+            <span onclick="closeFullImg()">X</span>
+        </div>
+   <div class="img-gallery">
+    <img src="./images/PP1.jpeg" onclick="openFullImg()"  alt="">
+    <img src="./images/PP2.jpeg"  onclick="openFullImg()"  alt="">
+    <img src="./images/PP9.jpeg"  onclick="openFullImg()"  alt="">
+    <img src="./images/PP4.jpeg"  onclick="openFullImg()"  alt="">
+    <img src="./images/PP9.jpeg"  onclick="openFullImg()" alt="">
+    <img src="./images/PP6.jpeg"  onclick="openFullImg()"  alt="">
+    <img src="./images/PP7.jpeg"  onclick="openFullImg()"  alt="">
+    <img src="./images/PP8.jpeg"  onclick="openFullImg()"  alt="">
+    <img src="./images/PP10.jpeg"  onclick="openFullImg()"  alt="">
+    <img src="./images/PP11.jpeg"  onclick="openFullImg()"  alt="">
+   </div>
+    <!-- video -->
+    
+
+  
+
     </main>
+
+
 
     <!-- footer -->
     <footer class="footer-area">
@@ -85,6 +115,9 @@
 
 
 <!-- the script tags -->
+<script>
+    var fullimgbox = document.getElementById('fullimgbox');
+</script>
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <script src="./index.js"></script>
 
