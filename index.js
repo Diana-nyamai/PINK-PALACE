@@ -62,3 +62,16 @@ $(document).ready(function(){
     },
     loop: true
   });
+
+  // gallery js
+  var fullimgbox = document.getElementById('fullimgbox');
+    var fullimg = document.getElementById('fullimg'); 
+    
+    function openFullImg(picture){
+       fullimgbox.style.display = 'flex';
+        fullimg.src = picture;
+    }
+
+    function closeFullImg(){
+      fullimgbox.style.display = 'none';
+    }

@@ -110,6 +110,8 @@
     width: 100%;
     text-align: center;
     background-image: url('../images/pp11.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 0;
     position: relative;
     overflow: hidden;

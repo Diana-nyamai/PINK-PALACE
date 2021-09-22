@@ -49,19 +49,22 @@
             <span onclick="closeFullImg()">X</span>
         </div>
    <div class="img-gallery">
-    <img src="./images/PP1.jpeg" onclick="openFullImg()"  alt="">
-    <img src="./images/PP2.jpeg"  onclick="openFullImg()"  alt="">
-    <img src="./images/PP9.jpeg"  onclick="openFullImg()"  alt="">
-    <img src="./images/PP4.jpeg"  onclick="openFullImg()"  alt="">
-    <img src="./images/PP9.jpeg"  onclick="openFullImg()" alt="">
-    <img src="./images/PP6.jpeg"  onclick="openFullImg()"  alt="">
-    <img src="./images/PP7.jpeg"  onclick="openFullImg()"  alt="">
-    <img src="./images/PP8.jpeg"  onclick="openFullImg()"  alt="">
-    <img src="./images/PP10.jpeg"  onclick="openFullImg()"  alt="">
-    <img src="./images/PP11.jpeg"  onclick="openFullImg()"  alt="">
+    <img src="./images/PP1.jpeg" onclick="openFullImg(this.src)"  alt="">
+    <img src="./images/PP2.jpeg"  onclick="openFullImg(this.src)"  alt="">
+    <img src="./images/PP9.jpeg"  onclick="openFullImg(this.src)"  alt="">
+    <img src="./images/PP4.jpeg"  onclick="openFullImg(this.src)"  alt="">
+    <img src="./images/PP9.jpeg"  onclick="openFullImg(this.src)" alt="">
+    <img src="./images/PP6.jpeg"  onclick="openFullImg(this.src)"  alt="">
+    <img src="./images/PP7.jpeg"  onclick="openFullImg(this.src)"  alt="">
+    <img src="./images/PP8.jpeg"  onclick="openFullImg(this.src)"  alt="">
+    <img src="./images/PP10.jpeg"  onclick="openFullImg(this.src)"  alt="">
+    <img src="./images/PP11.jpeg"  onclick="openFullImg(this.src)"  alt="">
    </div>
+
     <!-- video -->
-    
+    <div class="curved clearfix">
+      <div class="play"><a href=""></a></div>
+    </div>
 
   
 
@@ -115,9 +118,6 @@
 
 
 <!-- the script tags -->
-<script>
-    var fullimgbox = document.getElementById('fullimgbox');
-</script>
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <script src="./index.js"></script>
 
