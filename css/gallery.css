@@ -10,7 +10,7 @@
     cursor: pointer;
 }
 .img-gallery img:hover{
-    transform: scale(0.8) rotate(-15deg);
+    transform: scale(0.9) rotate(-15deg);
     border-radius: 20px;
     box-shadow: 0 32px 75px rgba(68, 77, 136, 0.2);
 }

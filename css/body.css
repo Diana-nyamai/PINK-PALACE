@@ -157,32 +157,43 @@
 }
 .fl-container{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 100px;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 10px;
     align-items: center;
     margin: 40px;
    
 }
-
+.f-list{
+    display: block;
+    padding: 10px;
+    width: 300px;
+}
 .f-list ul li{
     margin-bottom: 20px;
+    padding-left: 40px;
+    font-size: 15px;
 }
-  .swiper {
+.f-list ul li a{
+    padding-left: 10px;
+}
+
+/* swiper styling */
+.swiper {
     width: 100%;
     padding-top: 50px;
     padding-bottom: 50px;
     overflow: hidden;
   }
 
-  .swiper-slide {
+.swiper-slide {
     background-position: center;
     background-size: cover;
     width: 300px;
     height: 300px;
   }
 
-  .swiper-slide img {
+.swiper-slide img {
     display: block;
     width: 100%;
   }
