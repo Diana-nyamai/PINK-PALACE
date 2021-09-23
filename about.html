@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="./css/body.css">
     <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="./css/gallery.css">
+    <link rel="stylesheet" href="./css/about.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
@@ -33,42 +35,33 @@
             <li class="toggle"><span class="bars"></span></li>    
         </ul>
     </nav>
-
-
+    
     <div class="section2 clearfix">
       <p class="event">PHOTO SESSION</p>
       <h1>VENUE IN NAIROBI</h1>
-      <p>Karura House is a picturesque photography venue in Runda, set amidst blooming gardens, on the hilltops of the Karura Forest.</p>
+      <p>The Pink Palace is a photography venue in Garden Estate, a serene and quiet environment which is suitable for wedding, engagement and family photo venue. </p>
       
     </div>
+     <section>
+    <div class="about-container">
+        <div class="left-image" data-aos="fade-right"></div>
+        <div class="right-text" data-aos="fade-left">
+          <div class="about-content">
+            <h4>ABOUT</h4>
+            <h1>THE PINK PALACE</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea veritatis labore totam voluptate, consectetur voluptatibus itaque expedita dicta quis reprehenderit dolorum nostrum voluptates voluptas sequi quae quaerat iusto perspiciatis deserunt.</p>
 
-    <!-- card slider -->
-    <main>
-        <div class="full-img" id="fullimgbox">
-            <img src="./images/PP1.jpeg" id="fullimg" alt="">
-            <span onclick="closeFullImg()">X</span>
-        </div>
-   <div class="img-gallery">
-    <img src="./images/PP1.jpeg" onclick="openFullImg(this.src)"  alt="">
-    <img src="./images/PP2.jpeg"  onclick="openFullImg(this.src)"  alt="">
-    <img src="./images/PP9.jpeg"  onclick="openFullImg(this.src)"  alt="">
-    <img src="./images/PP4.jpeg"  onclick="openFullImg(this.src)"  alt="">
-    <img src="./images/PP9.jpeg"  onclick="openFullImg(this.src)" alt="">
-    <img src="./images/PP6.jpeg"  onclick="openFullImg(this.src)"  alt="">
-    <img src="./images/PP7.jpeg"  onclick="openFullImg(this.src)"  alt="">
-    <img src="./images/PP8.jpeg"  onclick="openFullImg(this.src)"  alt="">
-    <img src="./images/PP10.jpeg"  onclick="openFullImg(this.src)"  alt="">
-    <img src="./images/PP11.jpeg"  onclick="openFullImg(this.src)"  alt="">
-   </div>
-
-    <!-- video -->
-    <div class="curved clearfix">
-      <div class="play"><a href=""></a></div>
+          </div>
+        </div><!-- end of right div -->
     </div>
+  </section>
 
-  
+  <div class="section2 clearfix">
+    <p class="event">OUR PHOTO SHOOT</p>
+    <h1>PACKAGES</h1>
+    
+  </div>
 
-    </main>
 
 
 
@@ -119,6 +112,10 @@
 
 <!-- the script tags -->
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 <script src="./index.js"></script>
 
 </body>

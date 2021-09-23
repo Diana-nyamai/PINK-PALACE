@@ -8,12 +8,13 @@
       font-family: 'Montserrat', sans-serif;
       /* font-family: 'Roboto Condensed', sans-serif; */
       background: #f5f5f5;
-      font-size: 20px;
+      font-size: 18px;
   }
 nav{
     padding: 5px 20px;
     position: sticky;
     top: 0;
+    z-index: 100;
 }
 
 .text{

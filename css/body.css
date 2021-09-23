@@ -41,7 +41,7 @@
 .main-container .card{
     max-width: 300px;
     padding: 30px;
-    height: 215px;
+    height: 550px;
     position: relative;
     background: #e7bfc0;
     padding: 30px;
@@ -53,7 +53,6 @@
     transition: 0.3s ease-in-out;
 }
 .main-container .card:hover{
-    height: 550px;
     animation: pulse;
     animation-duration: 2s;
 }
@@ -68,16 +67,13 @@
     border-radius: 10px;
 }
 .main-container .card .content{
-    margin-top: -80px;
-    visibility: hidden;
+    margin-top: -40px;
     text-align: center;
     font-size: 15px;
     transition: 0.3s ease-in-out;
 }
 .main-container .card:hover .content{
-    visibility: visible;
     opacity: 1;
-    margin-top: -40px;
     transition-delay: 0.3s;
     font-size: 15px;
 }
@@ -146,6 +142,7 @@
     align-items: center;
     padding: 30px;
     margin-top: 200px;
+    overflow-x: hidden;
 }
 .f-container p{
     padding: 30px;
