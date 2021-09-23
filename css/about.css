@@ -78,6 +78,7 @@ section{
 article .text{
     font-size: 17px;
     padding: 10px;
+    height: 350px;
 }
 article .text h3{
     padding: 10px;
