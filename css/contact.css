@@ -157,3 +157,20 @@ section{
         width: 100%;
     }
 }
+
+/* map styling */
+.map-responsive{
+    margin-top: 200px;
+    overflow:hidden;
+    padding:300px 0;
+    position:relative;
+    height:0;
+}
+
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:60%;
+    width:100%;
+    position:absolute;
+}
