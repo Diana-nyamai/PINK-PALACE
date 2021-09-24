@@ -15,3 +15,7 @@
     border-radius: 10px;
     cursor: pointer;
 }
+.grid img:hover{
+    animation: pulse;
+    animation-duration: 2s;
+}
