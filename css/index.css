@@ -30,11 +30,11 @@ nav{
     color: black;
     padding: 20px;
     border-radius: 5px;
-    background: #7e3748;
+    background: #7e3748a6;
 }
 @media all and (max-width: 600px){
     .ml2{
-        font-size: 2.5em;
+        font-size: 1.5em;
     }
 }
 .ml2 .letter {

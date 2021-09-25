@@ -108,6 +108,7 @@ button:hover{
 }
 .curved{
     width: 100%;
+    height: 80vh;
     text-align: center;
     background-image: url('../images/pp11.jpeg');
     background-repeat: no-repeat;
@@ -123,12 +124,9 @@ button:hover{
 }
 .play{
     justify-content: center;
+    align-items: center;
     display: flex;
-    padding: 100px;
-}
-.play a{
-    margin-top: 20px;
-     background: transparent;
+    height: 80vh;
 }
 .play a:hover{
     animation: pulse;
