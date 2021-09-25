@@ -19,3 +19,6 @@
     animation: pulse;
     animation-duration: 2s;
 }
+article h3{
+    font-weight: 200;
+}

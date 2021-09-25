@@ -24,6 +24,7 @@ nav{
     align-items: center;
     height: 90vh;
 }
+
 .ml2 {
     font-weight: 600;
     font-size: 3.5em;
@@ -45,7 +46,8 @@ nav{
 
 .logo-text{
     color: #000;
-    font-size: 20px;  
+    font-size: 20px; 
+    letter-spacing: 3px; 
     
 }
 .logo a:hover{text-decoration: none;}
