@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./css/body.css">
     <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="./css/gallery.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
@@ -48,16 +49,16 @@
             <span onclick="closeFullImg()">X</span>
         </div>
    <div class="img-gallery">
-    <img src="./images/PP1.jpeg" onclick="openFullImg(this.src)"  alt="">
-    <img src="./images/PP2.jpeg"  onclick="openFullImg(this.src)"  alt="">
-    <img src="./images/PP9.jpeg"  onclick="openFullImg(this.src)"  alt="">
-    <img src="./images/PP4.jpeg"  onclick="openFullImg(this.src)"  alt="">
-    <img src="./images/PP9.jpeg"  onclick="openFullImg(this.src)" alt="">
-    <img src="./images/PP6.jpeg"  onclick="openFullImg(this.src)"  alt="">
-    <img src="./images/PP7.jpeg"  onclick="openFullImg(this.src)"  alt="">
-    <img src="./images/PP8.jpeg"  onclick="openFullImg(this.src)"  alt="">
-    <img src="./images/PP10.jpeg"  onclick="openFullImg(this.src)"  alt="">
-    <img src="./images/PP11.jpeg"  onclick="openFullImg(this.src)"  alt="">
+    <img src="./images/PP1.jpeg" onclick="openFullImg(this.src)"  alt=""  data-aos="zoom-in">
+    <img src="./images/PP2.jpeg"  onclick="openFullImg(this.src)"  alt=""  data-aos="zoom-in">
+    <img src="./images/PP9.jpeg"  onclick="openFullImg(this.src)"  alt=""  data-aos="zoom-in">
+    <img src="./images/PP4.jpeg"  onclick="openFullImg(this.src)"  alt=""  data-aos="zoom-in">
+    <img src="./images/PP9.jpeg"  onclick="openFullImg(this.src)" alt=""  data-aos="zoom-in">
+    <img src="./images/PP6.jpeg"  onclick="openFullImg(this.src)"  alt=""  data-aos="zoom-in">
+    <img src="./images/PP7.jpeg"  onclick="openFullImg(this.src)"  alt=""  data-aos="zoom-in">
+    <img src="./images/PP8.jpeg"  onclick="openFullImg(this.src)"  alt=""  data-aos="zoom-in">
+    <img src="./images/PP10.jpeg"  onclick="openFullImg(this.src)"  alt=""  data-aos="zoom-in">
+    <img src="./images/PP11.jpeg"  onclick="openFullImg(this.src)"  alt=""  data-aos="zoom-in">
    </div>
 
     <!-- video -->
@@ -118,6 +119,10 @@
 
 <!-- the script tags -->
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 <script src="./index.js"></script>
 
 </body>
