@@ -82,11 +82,19 @@
       <h1>GET A FULL VIEW OF PINK PALACE</h1>
     </div>
     <div class="curved clearfix">
-    
-      <div class="play"><a href=""><img src="https://img.icons8.com/material/96/000000/play-button-circled--v1.png"/></a></div>
+      <!-- video container -->
+      <div class="full-video" id="fullvideobox">
+      <video width="400" controls>
+        <source src="./images/ppVideo.mp4" type="video/mp4" id="fullvideo">  
+      </video>
+     <span onclick="closeFullvideo()">X</span>
     </div>
 
-    <!-- features and amenities -->
+      <!-- button play button -->
+      <div class="play"><img  onclick="openFullvideo(this.src)" src="https://img.icons8.com/material/96/000000/play-button-circled--v1.png"/></div>
+    </div>
+
+    <!-- features and amenities --> 
     <div class="f-container">
         <p>ATTRACTIVE</p>
         <h1>FEATURES & AMENETIES</h1>
@@ -170,8 +178,8 @@
      <div class="main">
        <div class="footer">
          <div class="single-footer">
-           <div class="footer-heading"><h4>ABOUT US</h4></div>
-           
+           <div class="footer-heading">
+           <h4>ABOUT US</h4></div>
            <p>The Pink Palace is a photography venue in Garden Estate, a serene and quiet environment which is suitable for wedding, engagement and family photo venue. 
             Located off Kiambu Road/Thika Road. Sits on a 3/4 acre well-manicured garden with a gazebo and rustic water fall
            </p>

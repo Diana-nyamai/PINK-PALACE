@@ -71,3 +71,16 @@ anime.timeline({loop: true})
     easing: "easeOutExpo",
     delay: 1000
   });
+
+  // video js
+  var fullvideobox = document.getElementById('fullvideobox');
+  var fullvideo = document.getElementById('fullvideo'); 
+  
+  function openFullvideo(video){
+     fullvideobox.style.display = 'flex';
+      fullvideo.src = video;
+  }
+
+  function closeFullvideo(){
+    fullvideobox.style.display = 'none';
+  }

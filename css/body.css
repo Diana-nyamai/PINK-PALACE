@@ -117,16 +117,40 @@ button:hover{
     position: relative;
     overflow: hidden;
 }
-
-.video-bg{
+.full-video{
+    width: 100%;
+    height: 100vh;
+    background: rgba(0,0,0,0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* display: none; */
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+.full-video video{
+    padding-top: 20px;
+    width: 25%;
+    max-width: 500px;
+}
+.full-video span{
     position: absolute;
-    height: 300px;
+    top: 5%;
+    right: 5%;
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
 }
 .play{
     justify-content: center;
     align-items: center;
     display: flex;
     height: 80vh;
+}
+.play img{
+    background: #7e3748;
+    border-radius: 50%;
 }
 .play a:hover{
     animation: pulse;
