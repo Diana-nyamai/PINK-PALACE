@@ -158,9 +158,10 @@ button:hover{
     background: #7e3748;
     border-radius: 50%;
 }
-.play a:hover{
+.play img:hover{
     animation: pulse;
     animation-duration: 2s;
+    cursor: pointer;
 }
 
 /* features and amenities styling */
