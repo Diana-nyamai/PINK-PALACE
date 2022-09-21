@@ -65,6 +65,7 @@
 }
 .image-box img{
     border-radius: 10px;
+    object-fit: cover;
 }
 .main-container .card .content{
     margin-top: -40px;
