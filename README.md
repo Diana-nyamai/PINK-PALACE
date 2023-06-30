@@ -30,8 +30,12 @@ After completing the installation, you can use Pink Palace by simply opening the
 We welcome contributions to Pink Palace! If you would like to contribute to this project, please follow these steps:
 
 1. Fork the repository.
-2. reate a new branch for your feature or bug fix.
+2. Create a new branch for your feature or bug fix.
 3. Implement your changes using HTML, CSS, and JavaScript.
 4. Test thoroughly.
 5. Commit your changes and push them to your forked repository.
 6. Submit a pull request detailing your changes.
+
+## Contact Information
+
+For any inquiries, please contact the project maintainer at [dnyamai.dn@gmail.com]
